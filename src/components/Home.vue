@@ -1,31 +1,36 @@
 <script setup>
 import projectData from '../assets/MOCK_DATA.js'
 import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
-
+import Card from "../components/Card.vue";
 
 </script>
 
 <template>
   <primary-template>
-  <h1>Welcome to my site!</h1>
 
-  <p v-for="(project, number) in projectData.data"  :key="number">
-    Project: {{project}} <br/>
-  </p>
-  <section class="middle">
-  </section>
+  <div class="middle">
+    <card
+      v-for="(project, index) in projectData.data"
+      :key="index"
+      :project-name="project.projectName"
+      :project-date="project.projectDate"
+      :class-name="project.className"
+      :project-description="project.projectDescription"
+      :project-img="project.projectImg"
+      />
+
+  </div>
 
 
   </primary-template>
 </template>
 
 <style scoped>
-h1{
-  text-align: center;
-  font-size: 30pt;
-}
-img{
+
+card{
+  width: 100%;
 
 }
+
 
 </style>

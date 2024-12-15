@@ -1,25 +1,16 @@
 <script setup>
-
 import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
-import Skyline from "../assets/IMG_8166.png";
+import projectData from "../assets/MOCK_DATA.js";
+import Card from "./Card.vue";
 </script>
 
 <template>
   <primary-template>
 
-  <section class="middle">
-    <img src="../assets/IMG_8166.png">
-  </section>
-
-
-
-
   </primary-template>
+
 </template>
+
 <style scoped>
-img{
-  max-width: 100%;
-  max-height: 100%;
-}
 
 </style>
