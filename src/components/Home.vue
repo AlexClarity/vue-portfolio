@@ -1,7 +1,5 @@
 <script setup>
-import projectData from '../assets/MOCK_DATA.js'
 import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
-import Card from "../components/Card.vue";
 
 </script>
 
@@ -9,15 +7,7 @@ import Card from "../components/Card.vue";
   <primary-template>
 
   <div class="middle">
-    <card
-      v-for="(project, index) in projectData.data"
-      :key="index"
-      :project-name="project.projectName"
-      :project-date="project.projectDate"
-      :class-name="project.className"
-      :project-description="project.projectDescription"
-      :project-img="project.projectImg"
-      />
+
 
   </div>
 
@@ -27,10 +17,10 @@ import Card from "../components/Card.vue";
 
 <style scoped>
 
-card{
-  width: 100%;
+.middle {
 
+  background-color: #30317e;
+  padding-top: 4rem;
 }
-
 
 </style>

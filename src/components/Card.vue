@@ -27,7 +27,9 @@ export default {
 </template>
 
 <style scoped>
-#info { display: none; }
+#info {
+  display: none;
+}
 
 div{
   text-align: center;
@@ -36,6 +38,15 @@ div{
   display:flex;
   flex-direction: column;
   justify-content: center;
+  color: white;
 }
+.card img {
+  width: 80%; /* Fill the width of the container */
+  height: 300px; /* Set a specific height */
+  object-fit: cover; /* Crop image while maintaining aspect ratio */
+  border-radius: 8px; /* Optional: round edges */
+  align-self: center;
+  margin: auto;
 
+}
 </style>
