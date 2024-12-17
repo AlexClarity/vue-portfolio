@@ -39,6 +39,7 @@ div{
   flex-direction: column;
   justify-content: center;
   color: white;
+
 }
 .card img {
   width: 80%; /* Fill the width of the container */

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 216 216">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: BelyDisplay-Regular, 'Bely Display';
+        font-size: 10.5px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #2e3182;
+      }
+
+      .cls-4 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <rect class="cls-3" width="216" height="216"/>
+  <path class="cls-2" d="M84.45,127.67h23.16c-.32-2.65-.49-5.39-.49-8.2,0-9.79,2.29-18.4,6.48-25.47l-28.48-65.05h-6.94l-42.42,96.59h-5.47v2.13h29.48v-2.13h-13.74l8.14-25.08h30.68l10.54,25.08h-10.94v2.13ZM54.83,98.06l12.54-38.69,16.41,38.69h-28.95Z"/>
+  <path class="cls-2" d="M112.07,118.1c0-24.03,16.09-39.78,40.56-39.78,11.51,0,21.12,2.57,29.28,6.82l-9.83,39h-.11c-16.98-33.19-25.92-40.67-33.86-40.67-4.92,0-8.72,3.79-8.72,12.74,0,28.49,23.24,51.85,47.05,51.85,3.13,0,7.04-.45,9.16-1.46l.11.12c-5.36,9.61-17.55,16.53-31.07,16.53-25.7,0-42.58-18.77-42.58-45.14Z"/>
+  <text class="cls-1" transform="translate(30.29 139.37)"><tspan x="0" y="0">G</tspan><tspan class="cls-4" x="8.01" y="0">r</tspan><tspan x="12.86" y="0">a</tspan><tspan class="cls-5" x="18.61" y="0">p</tspan><tspan x="25.44" y="0">hic Design</tspan></text>
+</svg>
